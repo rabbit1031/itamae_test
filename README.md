@@ -16,3 +16,8 @@ $ vagrant box remove <box_name> --box-version <box_version>
 ## Itamae
 
 https://github.com/itamae-kitchen/itamae/wiki/Getting-Started
+
+### apply
+```
+$ itamae ssh -l debug --vagrant --host default itamae/recipe.rb
+```
