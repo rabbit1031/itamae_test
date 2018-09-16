@@ -19,5 +19,5 @@ https://github.com/itamae-kitchen/itamae/wiki/Getting-Started
 
 ### apply
 ```
-$ itamae ssh -l debug --vagrant --host default itamae/recipe.rb
+$ bundle exec itamae ssh -l debug --vagrant --host default itamae/recipe.rb
 ```
